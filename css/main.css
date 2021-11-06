@@ -1,14 +1,30 @@
+
+
+.dark-gray-back-section{
+    border: 1px solid #333130;
+	background: linear-gradient(45deg, #333130 10%, #71706f 50%, #333130 90%);
+}
+
+.section-capture{
+	box-sizing: border-box;
+	color: #fe6c0a;
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+}
+
+
+
 /* HEADER */
+/* ШАПКА */
 
 #site-header{
 	position: sticky;
 	top: 0;
 	z-index: 100;
 	padding: 30px 0px 30px 0px;
-	border: 1px solid #333130;
-	background: linear-gradient(45deg, #333130 10%, #71706f 50%, #333130 90%);
 }
 
+/* заголовок сайта */
 #site-name-wrapper{
 	box-sizing: border-box;
 	margin: 20px;
@@ -21,20 +37,31 @@
 	font-size: 35px;
 }
 
-.white-line-wrapper{
+
+/* декоративна лінія під заголовком сайта і заголовками його розділів */
+
+.decorative-line-wrapper{
 	margin: 0px 0px 10px 0px;
 	text-align: center;
 }
 
-.white-line{
+.decorative-line{
 	display: inline-block;
 	width: 300px;
 	height: 2px;
-	background: #cff6f2;
+}
+
+.section-line{
+	width: 150px;
+	height: 3px;
+}
+
+.light-blue-background{
+    background: #cff6f2;
 }
 
 
-
+/* головне меню */
 #main-menu{
 	margin-top: 20px;
 	list-style: none;
@@ -65,15 +92,7 @@
 	color: #dafffe;
 }
 
-
-
-
-
-
-.section-white-line{
-	width: 150px;
-	height: 3px;
-}
+/* ------------------------------------------------------------------ */
 
 
 
@@ -81,25 +100,16 @@
 
 
 
+/* MAIN */
+/* КОНТЕНТ */
 
-
-
-
-
-
-
+/* ABOUT */
+/* ПРО МЕНЕ */
 #about{
 	box-sizing: border-box;
 	padding: 30px 0px 30px 0px;
 	border: 1px solid #c3c3c3;
 	background: linear-gradient(180deg, #c3c3c3 10%, #cccdd0 50%, #c3c3c3 90%);
-}
-
-.section-capture{
-	box-sizing: border-box;
-	color: #fe6c0a;
-	font-family: 'Roboto Slab', serif;
-	font-size: 30px;
 }
 
 .box-capture-wrapper{
@@ -108,6 +118,7 @@
 	text-align: center;
 }
 
+/*  фото */
 .dev-photo-wrapper{
 	box-sizing: border-box;
 	width: 260px;
@@ -124,12 +135,14 @@
 	transition-duration: 2s;
 }
 
+/* імя */
 .dev-name{
 	box-sizing: border-box;
 	margin: 10px;
 	text-align: center;
 }
 
+/* коротка розповідь */
 .dev-short-description{
 	box-sizing: border-box;
     width: 50%;
@@ -139,7 +152,7 @@
 	box-shadow: 7px 7px 10px 5px #333130;
 }
 
-
+/* ------------------------------------------------------------------ */
 
 
 
@@ -205,9 +218,12 @@
 
 
 
+
+/* SKILLS */  
+/* ТЕХНОЛОГІЇ З ЯКИМИ ПРАЦЮЮ */
+
 #skills{
 	box-sizing: border-box;
-	border: 1px solid #333130;
 	animation: light 3s infinite alternate;
 }
 
@@ -219,6 +235,7 @@
 	padding: 15px;
 }
 
+/* картка з назвою технології і логотипом */
 .skill{
 	box-sizing: border-box;
 	width: 170px;
@@ -232,14 +249,13 @@
 	
 }
 
-
 .skill:hover{
 	padding: 20px;
 	border: 1px solid #ffa800;
     box-shadow: 10px 10px 12px #fffc0b;
 }
 
-
+/* логотип технології */
 .skill-image-wrapper{
 	box-sizing: border-box;
 	max-width: 135px;
@@ -252,6 +268,7 @@
 	border-radius: 50%;
 }
 
+/* назва технології */
 .skill-name{
 	box-sizing: border-box;
 	margin-top: 10px;
@@ -261,11 +278,14 @@
 	text-align: center;
 }
 
+ /* ------------------------------------------------------------------ */
 
 
 
 
 
+/* PORTFOLIO */
+/* ПОРТФОЛИО */
 #portfolio{
 	box-sizing: border-box;
 	min-height: 700px;
@@ -279,6 +299,7 @@
 	justify-content: center;
 }
 
+/* картка з зображенням і посиланням на презентовану роботу */
 .portfolio-item{
 	box-sizing: border-box;
 	width: 40%;
@@ -289,6 +310,7 @@
 	border: 1px solid #ff7e00;
 }
 
+/* зображення презентованої роботи */
 .portfolio-item-image{
 	box-sizing: border-box;
 	width: 100%;
@@ -299,11 +321,7 @@
 	width: 100%;
 }
 
-.portfolio-item-captions{
-	box-sizing: border-box;
-	margin: 10px;
-}
-
+/* блок з назвою і посиланням на презентовану роботу */
 .portfolio-item-link-wrapper{
 	display: none;
 	position: absolute;
@@ -336,20 +354,23 @@
 	text-decoration: underline;
 }
 
+.portfolio-item-captions{
+	box-sizing: border-box;
+	margin: 10px;
+}
+
+/* ------------------------------------------------------------------ */
 
 
 
 
 
-
-
-
+/* CONTACTS */
+/* КОНТАКТИ */
 
 #contacts{
 	box-sizing: border-box;
 	padding: 30px 0px 30px 0px;
-	border: 1px solid #333130;
-	background: linear-gradient(45deg, #333130 10%, #71706f 50%, #333130 90%);
 }
 
 
@@ -358,12 +379,13 @@
 	justify-content: center;
 }
 
-
+/* колонка з группою конактів */
 .contact-list-col{
 	width: 30%;
 	box-sizing: border-box;
 }
 
+/* пункт списку контактів */
 .contact-list-item{
 	color: #fff;
 	margin-top: 10px;
@@ -400,11 +422,13 @@
     color: #fe6c0a;
 }
 
+
+/* колонка з посаланнями на соціальні мережі */
 .facebook-list-item-link{
     background-image: url('../img/contacts/social/Facebook_icon.png');
 }
 
-
+/* колонка з посаланнями на мессенджери */
 .messenger-list-item-link{
 	background-image: url('../img/contacts/social/Facebook_icon.png');
 }
@@ -421,22 +445,21 @@
 	background-image: url('../img/contacts/messengers/Skype.png');
 }
 
+/* ------------------------------------------------------------------ */
 
 
 
 
 
-
-
-
-
+/* FOOTER */
+/* ПІДВАЛ */
 
 #footer{
 	padding: 30px 0px 30px 0px;
 	border-top: 2px solid #fe6c0a;
-	background: linear-gradient(45deg, #333130 10%, #71706f 50%, #333130 90%);
 }
 
+/* копирайт */
 #copy{
 	color: #fff;
     text-align: center;
